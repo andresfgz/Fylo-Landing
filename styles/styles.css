@@ -104,7 +104,7 @@ header {
     min-width: 505px;
     margin-top: 50px;
 }
-.middle-section-bk-images img {
+.middle-section-bk-images {
     display: flex;
     justify-content: center;
 }
@@ -200,6 +200,7 @@ header {
     padding-left: 31px;
     padding-right: 12px;
     line-height: 2.7rem;
+    margin-bottom: 121px;
 }
 
 .middle-section-opinion-container .middle-sec-p{
@@ -224,4 +225,67 @@ header {
 .middle-section-opinion-image .middle-section-opinion-name {
     padding-left: 10px;
     font-size: 1.4rem;
+}
+
+
+.acces-today-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 506px;
+    background-color: var(--Desaturated-Blue);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.acces-today-descrip {
+    padding: 40px 53px 30px 53px;
+}
+
+.acces-today-descrip h3{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 23px;
+}
+
+.acces-today-descrip p {
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.5rem
+}
+.acces-today-form {
+    display: flex;
+    justify-content: center;
+}
+.acces-today-cont {
+    width: 73%;
+    display: flex;
+    flex-direction: column;
+}
+.acces-today-input {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    display: block;
+    min-width: 351px;
+    margin: 0 13px;
+    height: 56px;
+    padding-left: 12px;
+    border: none;
+}
+
+.acces-today-button {
+    font-family: 'Raleway', sans-serif;
+    border-radius: 8px;
+    font-size: 1.6rem;
+    color: var(--Light-Grayish-Blue);
+    background-color: var(--Bright-Blue);
+    display: block;
+    min-width: 351px;
+    margin: 12px 13px 50px 13px;
+    height: 56px;
+    padding-left: 12px;
+    border: none;
+    font-weight: 700;
 }
