@@ -4,6 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/styles.css">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 <body>
@@ -24,7 +29,7 @@
 <section class="main-section">
   <div class="main-section-container">
     <div class="main-section-image">
-      <img src="images/illustration-1.svg" alt="">
+      <img src="images/illustration-1.svg" alt="illustration 1">
     </div>
     <div class="main-section-descript">
       <h1>All your files in one secure location, accessible anywhere.</h1>
@@ -41,27 +46,36 @@
 </section>
 
 <section class="middle-section">
+  <div class="middle-section-bk-images">
+    <img class="bk-image-mobile" src="images/bg-curve-mobile.svg" alt="Background Curve Mobile">
+    <img class="bk-image-desktop" src="images/bg-curve-desktop.svg" alt="Background Curve Desktop">
+  </div>
   <div class="middle-section-container">
     <div class="middle-section-image">
-      <img src="images/illustration-2.svg" alt="">
+      <img src="images/illustration-2.svg" alt="illustration 2">
     </div>
     <div class="middle-section-description">
       <h2> Stay productive, wherever you are</h2>
       <p class="middle-section-parragraph">Never let location be an issue when accessing your files. Fylo has you 
         covered for all of your file storage needs.
-      
+      <br>
+      <br>
         Securely share files and folders with friends, family and colleagues for 
         live collaboration. No email attachments required!</p>
-
-        <p class="middle-section-ref">See how Fylo works <span></span></p>
+        <div class="middle-section-ref-cont">
+          <p class="middle-section-ref">See how Fylo works <span></span></p>
+        </div>
+        
         <div class="middle-section-opinion">
-          <p>Fylo has improved our team productivity by an order of magnitude. Since 
+          <div class="middle-section-opinion-container">
+            <img class="quotes-icon" src="/images/icon-quotes.svg" alt="Icon Quotes" width="20px">
+          <p class="middle-sec-p">Fylo has improved our team productivity by an order of magnitude. Since 
             making the switch our team has become a well-oiled collaboration machine.</p>
             <div class="middle-section-opinion-image">
               <img src="images/avatar-testimonial.jpg" alt="Kyle Burton Avatar">
-              <p class="middle-section-opinion-name">Kyle Burton</p>
-              <p class="middle-section-opinion-descrp"">Founder & CEO, Huddle</p>
+              <p class="middle-section-opinion-name"> <strong>Kyle Burton</strong> <br> Founder & CEO, Huddle </p>
             </div>
+          </div>
         </div>
     </div>
   </div>
