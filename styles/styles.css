@@ -15,12 +15,21 @@
 
 html {
     font-size: 62.5%;
-    font-family: 'Raleway', sans-serif;
     font-family: 'Open Sans', sans-serif;
 
 }
 header {
     min-width: 500px;
+}
+.check-email {
+    display: none;
+}
+
+.check-email-ok {
+    font-family: 'Raleway', sans-serif;
+    color: red;
+    font-size: 1.5rem;
+    margin: -15px 0 20px 40px;
 }
 
 .header-container{
@@ -31,7 +40,7 @@ header {
 }
 
 .header-section-links a{
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     padding-right: 15px;
     text-decoration: none;
     vertical-align: top;
@@ -65,13 +74,13 @@ a:hover {
 
 .main-section-descript h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 3.5rem;
+    font-size: 3.3rem;
     text-align: center;
     line-height: 4.5rem;
 }
 
-.main-section-descript p {
-    font-size: 2.0rem;
+.main-section-descript .parrag {
+    font-size: 1.8rem;
     text-align: center;
     margin: 20px 27px; 
 }
@@ -84,7 +93,7 @@ a:hover {
 
 .main-section-input {
     font-family: 'Raleway', sans-serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: block;
     min-width: 410px;
     height: 56px;
@@ -94,12 +103,24 @@ a:hover {
     border-radius: 8px;
 }
 
+.main-section-input-red {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+    display: block;
+    min-width: 410px;
+    height: 56px;
+    padding-left: 30px;
+    margin: 34px 39px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
 .main-section-button {
     font-family: 'Open Sans', sans-serif;
     min-width: 410px;
     height: 56px;
     margin: -10px 39px;
-    font-size: 2.0rem;
+    font-size: 1.9rem;
     border-radius: 8px;
     color: var(--Light-Grayish-Blue);
     background-color: var(--Bright-Blue);
@@ -147,13 +168,13 @@ a:hover {
 }
 
 .middle-section-description h2 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
     text-align: center;
     font-weight: 700;
 }
 
 .middle-section-description .middle-section-parragraph {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 28px 10px 30px 20px;
     width: 93%;
     color: var(--Very-Dark-Blue);
@@ -161,7 +182,7 @@ a:hover {
 }
 
 .middle-section-ref {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     text-align: center;
     cursor: pointer;
     margin-bottom: 40px;
@@ -210,7 +231,7 @@ a:hover {
 }
 
 .middle-section-opinion-container .middle-sec-p{
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     padding-top: 8px;
     font-weight: 700;
     font-family: 'Raleway', sans-serif;
@@ -230,7 +251,7 @@ a:hover {
 
 .middle-section-opinion-image .middle-section-opinion-name {
     padding-left: 10px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
@@ -249,14 +270,14 @@ a:hover {
 
 .acces-today-descrip h3{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-align: center;
     padding-bottom: 20px;
     padding-top: 23px;
 }
 
 .acces-today-descrip p {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     line-height: 2.5rem
 }
@@ -272,7 +293,7 @@ a:hover {
 .acces-today-input {
     font-family: 'Raleway', sans-serif;
     border-radius: 8px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     display: block;
     min-width: 351px;
     margin: 0 13px;
@@ -284,7 +305,7 @@ a:hover {
 .acces-today-button {
     font-family: 'Raleway', sans-serif;
     border-radius: 8px;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: var(--Light-Grayish-Blue);
     background-color: var(--Bright-Blue);
     display: block;
@@ -319,7 +340,7 @@ li {
     cursor: pointer;
 }
 .footer-list-contact li {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 }
 
 .footer-list-sections {
@@ -327,10 +348,13 @@ li {
 }
 
 .footer-list-sections li {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
 }
 
 li:hover {
     color: var(--Desaturated-Blue);
 }
 
+button:hover {
+    background-color: hsl(224, 74%, 52%);;
+}

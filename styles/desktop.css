@@ -1,6 +1,15 @@
 .header-section-links a{ 
     margin-right: 30px;
 }
+.check-email {
+    display: none;
+}
+
+.check-email-ok {
+    position: absolute;
+    left: 27px;
+    margin-top: 122px;
+}
 
 .main-section-descript h1 {
     max-width: 700px;

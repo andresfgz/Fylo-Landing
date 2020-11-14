@@ -82,7 +82,8 @@
 .footer-main-container {
     padding-bottom: 0;
     flex-direction: inherit;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    margin-right: 50px;
 }
 .footer-list-sections li{
     font-size: 1.8rem;
