@@ -33,10 +33,14 @@ header {
 }
 
 .header-container{
-    margin-top: 1.2rem;
+    margin-top: 6.5rem;
     display: flex;
     justify-content: space-between;
-    padding-left: 1px;
+    padding-left: 35px;
+}
+
+.header-section-links {
+    margin-right: 42px;
 }
 
 .header-section-links a{
@@ -267,7 +271,9 @@ a:hover {
 .acces-today-descrip {
     padding: 40px 53px 30px 53px;
 }
-
+.middle-section-opinion-container .quotes-icon {
+    width: 20px;
+}
 .acces-today-descrip h3{
     font-weight: 700;
     font-size: 2.2rem;
