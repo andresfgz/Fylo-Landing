@@ -1,0 +1,97 @@
+.header-section-links a{ 
+    margin-right: 30px;
+}
+
+.main-section-descript h1 {
+    max-width: 700px;
+    margin-top: 40px;
+    line-height: 6.2rem;
+
+}
+.main-section-descript p {
+    line-height: 3.5rem;
+    max-width: 700px;
+    font-size: 2.1rem;
+}
+.main-section-image img {
+    max-width: 900px;
+}
+.main-section-button {
+    min-width: 230px;
+    max-width: 200px;
+}
+
+.main-section-input {
+    max-width: 400px;
+    margin-right: 0;
+}
+.main-section-form {
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.main-section-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between
+}
+.main-section-descript {
+    margin-left: 40px;
+}
+.main-section-image {
+    margin-right: 40px;
+}
+.middle-section-container{
+    justify-content: space-between;
+    padding-left: 40px;
+}
+
+.middle-section-image img {
+    margin-right: 90px;
+}
+
+.middle-section-description h2 {
+    font-size: 3.5rem;
+}
+.middle-section-description .middle-section-parragraph {
+    max-width: 750px;
+    font-size: 2.3rem;
+}
+
+.middle-section-ref {
+    font-size: 2.5rem;
+    width: 241px;
+}
+.middle-section-opinion-container {
+    max-width: 550px;
+    padding-right: 84px;
+}
+.acces-today-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.acces-today-descrip h3 {
+    text-align: left;
+    font-size: 2.7rem;
+}
+
+.acces-today-descrip p {
+    text-align: left;
+    font-size: 2.4rem;
+}
+.acces-today-cont {
+    flex-direction: column;
+    margin-right: 101px;
+    margin-top: 63px;
+    margin-bottom: 0;
+}
+
+.acces-today-input {
+    width: 521px;
+}
+.acces-today-button {
+    min-width: 213px;
+    max-width: 250px;
+}

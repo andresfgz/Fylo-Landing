@@ -106,9 +106,6 @@ a:hover {
     cursor: pointer;
 }
 
-.main-section-button:hover {
-    
-}
 .middle-section {
     min-width: 505px;
     margin-top: 50px;
@@ -297,6 +294,7 @@ a:hover {
     padding-left: 12px;
     border: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 footer{
@@ -318,6 +316,7 @@ footer{
 }
 li {
     list-style: none;
+    cursor: pointer;
 }
 .footer-list-contact li {
     font-size: 1.9rem;
@@ -329,5 +328,9 @@ li {
 
 .footer-list-sections li {
     font-size: 1.6rem;
+}
+
+li:hover {
+    color: var(--Desaturated-Blue);
 }
 
