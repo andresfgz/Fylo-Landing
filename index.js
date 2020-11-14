@@ -1,4 +1,3 @@
-
 const buttonH = document.getElementById('button-ex');
 const parrag = document.getElementById('base');
 const lab = document.getElementById('email');
